@@ -2,10 +2,11 @@ TweenLite.set("body", {
   perspective: 600
 })
 
-var total = 30;
 var warp = document.getElementsByTagName("body")[0],
   w = window.innerWidth,
   h = window.innerHeight;
+
+var total = w / 24;
 
 for (i = 0; i < total; i++) {
   var Div = document.createElement('div');
